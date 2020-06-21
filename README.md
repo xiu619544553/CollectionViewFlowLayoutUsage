@@ -5,11 +5,11 @@
 
 1. 创建 `TKWaterFallFlowLayout`
 2. 设置属性
-* delegate，设置代理，遵守协议方法
-* columnCount  有几列。默认值 2
-* columnSpacing  列间距。默认值 10.f
-* rowSpacing  行间距。默认值 10.f
-* sectionInset  collectionView内边距。默认值 UIEdgeInsetsZero
+* `delegate`  设置代理，遵守协议方法
+* `columnCount`  有几列。默认值 2
+* `columnSpacing`  列间距。默认值 10.f
+* `rowSpacing`  行间距。默认值 10.f
+* `sectionInset`  collectionView内边距。默认值 UIEdgeInsetsZero
 3. 实现代理方法
 
 ```
