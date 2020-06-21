@@ -12,6 +12,8 @@
 * `sectionInset`  collectionView内边距。默认值 UIEdgeInsetsZero
 3. 实现代理方法
 
+
+## 部分代码如下
 ```
 - (UICollectionView *)collectionView {
     if (!_collectionView) {
@@ -39,3 +41,7 @@
 }
 
 ```
+
+## 下载Demo，
+`pod install`
+然后查看效果。
