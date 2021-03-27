@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEE801BF260D6B1B00A0B3F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE801BE260D6B1B00A0B3F1 /* AppDelegate.m */; };
+		CEE801CA260D6B1D00A0B3F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEE801C9260D6B1D00A0B3F1 /* Assets.xcassets */; };
+		CEE801CD260D6B1D00A0B3F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE801CB260D6B1D00A0B3F1 /* LaunchScreen.storyboard */; };
+		CEE801D0260D6B1D00A0B3F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE801CF260D6B1D00A0B3F1 /* main.m */; };
+		CEE801DE260D6D0800A0B3F1 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE801DD260D6D0800A0B3F1 /* TableViewController.m */; };
+		CEE801E8260D6E6500A0B3F1 /* TKWaterFallFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE801E6260D6E6500A0B3F1 /* TKWaterFallFlowLayout.m */; };
+		CEE801FB260D6F3D00A0B3F1 /* WaterFallFlowLayoutUsageController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE801FA260D6F3D00A0B3F1 /* WaterFallFlowLayoutUsageController.m */; };
+		CEE80200260D6F5C00A0B3F1 /* WaterFallFlowLayoutCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE801FF260D6F5C00A0B3F1 /* WaterFallFlowLayoutCollectionViewCell.m */; };
+		CEFEFE26260DC90F007935D6 /* CentralCardSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFEFE21260DC90F007935D6 /* CentralCardSwitch.m */; };
+		CEFEFE27260DC90F007935D6 /* CentralCardModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFEFE23260DC90F007935D6 /* CentralCardModel.m */; };
+		CEFEFE28260DC90F007935D6 /* DataPropertyList.plist in Resources */ = {isa = PBXBuildFile; fileRef = CEFEFE25260DC90F007935D6 /* DataPropertyList.plist */; };
+		CEFEFE2C260DC917007935D6 /* CentralCardLayoutCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFEFE2B260DC917007935D6 /* CentralCardLayoutCollectionViewCell.m */; };
+		CEFEFE30260DC924007935D6 /* CentralCardLayoutUsageController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFEFE2F260DC924007935D6 /* CentralCardLayoutUsageController.m */; };
+		CEFEFE34260DC92B007935D6 /* CentralCardLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFEFE33260DC92B007935D6 /* CentralCardLayout.m */; };
+		E2F890087F7F2BAA240B37B4 /* Pods_CollectionViewFlowLayoutUsage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AD3C0B5BF59A10B79323D83 /* Pods_CollectionViewFlowLayoutUsage.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		38CC22E1E7D29075109E1150 /* Pods-CollectionViewFlowLayoutUsage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CollectionViewFlowLayoutUsage.release.xcconfig"; path = "Target Support Files/Pods-CollectionViewFlowLayoutUsage/Pods-CollectionViewFlowLayoutUsage.release.xcconfig"; sourceTree = "<group>"; };
+		593166D23C985F57715ADF14 /* Pods-CollectionViewFlowLayoutUsage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CollectionViewFlowLayoutUsage.debug.xcconfig"; path = "Target Support Files/Pods-CollectionViewFlowLayoutUsage/Pods-CollectionViewFlowLayoutUsage.debug.xcconfig"; sourceTree = "<group>"; };
+		5AD3C0B5BF59A10B79323D83 /* Pods_CollectionViewFlowLayoutUsage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CollectionViewFlowLayoutUsage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEE801BA260D6B1B00A0B3F1 /* CollectionViewFlowLayoutUsage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionViewFlowLayoutUsage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEE801BD260D6B1B00A0B3F1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CEE801BE260D6B1B00A0B3F1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CEE801C9260D6B1D00A0B3F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEE801CC260D6B1D00A0B3F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEE801CE260D6B1D00A0B3F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEE801CF260D6B1D00A0B3F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEE801DC260D6D0800A0B3F1 /* TableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		CEE801DD260D6D0800A0B3F1 /* TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		CEE801E5260D6E6500A0B3F1 /* TKWaterFallFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKWaterFallFlowLayout.h; sourceTree = "<group>"; };
+		CEE801E6260D6E6500A0B3F1 /* TKWaterFallFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKWaterFallFlowLayout.m; sourceTree = "<group>"; };
+		CEE801F9260D6F3D00A0B3F1 /* WaterFallFlowLayoutUsageController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WaterFallFlowLayoutUsageController.h; sourceTree = "<group>"; };
+		CEE801FA260D6F3D00A0B3F1 /* WaterFallFlowLayoutUsageController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaterFallFlowLayoutUsageController.m; sourceTree = "<group>"; };
+		CEE801FE260D6F5C00A0B3F1 /* WaterFallFlowLayoutCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WaterFallFlowLayoutCollectionViewCell.h; sourceTree = "<group>"; };
+		CEE801FF260D6F5C00A0B3F1 /* WaterFallFlowLayoutCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaterFallFlowLayoutCollectionViewCell.m; sourceTree = "<group>"; };
+		CEFEFE20260DC90F007935D6 /* CentralCardModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CentralCardModel.h; sourceTree = "<group>"; };
+		CEFEFE21260DC90F007935D6 /* CentralCardSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CentralCardSwitch.m; sourceTree = "<group>"; };
+		CEFEFE22260DC90F007935D6 /* CentralCardSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CentralCardSwitch.h; sourceTree = "<group>"; };
+		CEFEFE23260DC90F007935D6 /* CentralCardModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CentralCardModel.m; sourceTree = "<group>"; };
+		CEFEFE25260DC90F007935D6 /* DataPropertyList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DataPropertyList.plist; sourceTree = "<group>"; };
+		CEFEFE2A260DC917007935D6 /* CentralCardLayoutCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CentralCardLayoutCollectionViewCell.h; sourceTree = "<group>"; };
+		CEFEFE2B260DC917007935D6 /* CentralCardLayoutCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CentralCardLayoutCollectionViewCell.m; sourceTree = "<group>"; };
+		CEFEFE2E260DC924007935D6 /* CentralCardLayoutUsageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CentralCardLayoutUsageController.h; sourceTree = "<group>"; };
+		CEFEFE2F260DC924007935D6 /* CentralCardLayoutUsageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CentralCardLayoutUsageController.m; sourceTree = "<group>"; };
+		CEFEFE32260DC92B007935D6 /* CentralCardLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CentralCardLayout.h; sourceTree = "<group>"; };
+		CEFEFE33260DC92B007935D6 /* CentralCardLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CentralCardLayout.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEE801B7260D6B1B00A0B3F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2F890087F7F2BAA240B37B4 /* Pods_CollectionViewFlowLayoutUsage.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19A045C50258BACA1293F6AD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				593166D23C985F57715ADF14 /* Pods-CollectionViewFlowLayoutUsage.debug.xcconfig */,
+				38CC22E1E7D29075109E1150 /* Pods-CollectionViewFlowLayoutUsage.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CEE801B1260D6B1B00A0B3F1 = {
+			isa = PBXGroup;
+			children = (
+				CEE801BC260D6B1B00A0B3F1 /* CollectionViewFlowLayoutUsage */,
+				CEE801BB260D6B1B00A0B3F1 /* Products */,
+				19A045C50258BACA1293F6AD /* Pods */,
+				E6FE25288095CCEF5EC5A025 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CEE801BB260D6B1B00A0B3F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEE801BA260D6B1B00A0B3F1 /* CollectionViewFlowLayoutUsage.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEE801BC260D6B1B00A0B3F1 /* CollectionViewFlowLayoutUsage */ = {
+			isa = PBXGroup;
+			children = (
+				CEE801E1260D6E6500A0B3F1 /* CentralCardLayout */,
+				CEE801E4260D6E6500A0B3F1 /* WaterFallFlowLayout */,
+				CEE801BD260D6B1B00A0B3F1 /* AppDelegate.h */,
+				CEE801BE260D6B1B00A0B3F1 /* AppDelegate.m */,
+				CEE801DC260D6D0800A0B3F1 /* TableViewController.h */,
+				CEE801DD260D6D0800A0B3F1 /* TableViewController.m */,
+				CEE801C9260D6B1D00A0B3F1 /* Assets.xcassets */,
+				CEE801CB260D6B1D00A0B3F1 /* LaunchScreen.storyboard */,
+				CEE801CE260D6B1D00A0B3F1 /* Info.plist */,
+				CEE801CF260D6B1D00A0B3F1 /* main.m */,
+			);
+			path = CollectionViewFlowLayoutUsage;
+			sourceTree = "<group>";
+		};
+		CEE801E1260D6E6500A0B3F1 /* CentralCardLayout */ = {
+			isa = PBXGroup;
+			children = (
+				CEE801EA260D6E7500A0B3F1 /* Layout */,
+				CEFEFE1F260DC90F007935D6 /* Model */,
+				CEFEFE24260DC90F007935D6 /* Resource */,
+				CEE801EC260D6E8B00A0B3F1 /* View */,
+				CEE801EB260D6E8400A0B3F1 /* ViewController */,
+			);
+			path = CentralCardLayout;
+			sourceTree = "<group>";
+		};
+		CEE801E4260D6E6500A0B3F1 /* WaterFallFlowLayout */ = {
+			isa = PBXGroup;
+			children = (
+				CEE801F8260D6F2000A0B3F1 /* View */,
+				CEE801F7260D6F1800A0B3F1 /* ViewController */,
+				CEE801F6260D6F1000A0B3F1 /* Layout */,
+			);
+			path = WaterFallFlowLayout;
+			sourceTree = "<group>";
+		};
+		CEE801EA260D6E7500A0B3F1 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				CEFEFE32260DC92B007935D6 /* CentralCardLayout.h */,
+				CEFEFE33260DC92B007935D6 /* CentralCardLayout.m */,
+			);
+			path = Layout;
+			sourceTree = "<group>";
+		};
+		CEE801EB260D6E8400A0B3F1 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CEFEFE2E260DC924007935D6 /* CentralCardLayoutUsageController.h */,
+				CEFEFE2F260DC924007935D6 /* CentralCardLayoutUsageController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		CEE801EC260D6E8B00A0B3F1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CEFEFE2A260DC917007935D6 /* CentralCardLayoutCollectionViewCell.h */,
+				CEFEFE2B260DC917007935D6 /* CentralCardLayoutCollectionViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CEE801F6260D6F1000A0B3F1 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				CEE801E5260D6E6500A0B3F1 /* TKWaterFallFlowLayout.h */,
+				CEE801E6260D6E6500A0B3F1 /* TKWaterFallFlowLayout.m */,
+			);
+			path = Layout;
+			sourceTree = "<group>";
+		};
+		CEE801F7260D6F1800A0B3F1 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CEE801F9260D6F3D00A0B3F1 /* WaterFallFlowLayoutUsageController.h */,
+				CEE801FA260D6F3D00A0B3F1 /* WaterFallFlowLayoutUsageController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		CEE801F8260D6F2000A0B3F1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CEE801FE260D6F5C00A0B3F1 /* WaterFallFlowLayoutCollectionViewCell.h */,
+				CEE801FF260D6F5C00A0B3F1 /* WaterFallFlowLayoutCollectionViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CEFEFE1F260DC90F007935D6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CEFEFE20260DC90F007935D6 /* CentralCardModel.h */,
+				CEFEFE23260DC90F007935D6 /* CentralCardModel.m */,
+				CEFEFE22260DC90F007935D6 /* CentralCardSwitch.h */,
+				CEFEFE21260DC90F007935D6 /* CentralCardSwitch.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CEFEFE24260DC90F007935D6 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				CEFEFE25260DC90F007935D6 /* DataPropertyList.plist */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		E6FE25288095CCEF5EC5A025 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5AD3C0B5BF59A10B79323D83 /* Pods_CollectionViewFlowLayoutUsage.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEE801B9260D6B1B00A0B3F1 /* CollectionViewFlowLayoutUsage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEE801D3260D6B1D00A0B3F1 /* Build configuration list for PBXNativeTarget "CollectionViewFlowLayoutUsage" */;
+			buildPhases = (
+				82C4AA4CD9EC6B1E1C99C33A /* [CP] Check Pods Manifest.lock */,
+				CEE801B6260D6B1B00A0B3F1 /* Sources */,
+				CEE801B7260D6B1B00A0B3F1 /* Frameworks */,
+				CEE801B8260D6B1B00A0B3F1 /* Resources */,
+				76D495FBA865191F8049CC04 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CollectionViewFlowLayoutUsage;
+			productName = CollectionViewFlowLayoutUsage;
+			productReference = CEE801BA260D6B1B00A0B3F1 /* CollectionViewFlowLayoutUsage.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEE801B2260D6B1B00A0B3F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					CEE801B9260D6B1B00A0B3F1 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = CEE801B5260D6B1B00A0B3F1 /* Build configuration list for PBXProject "CollectionViewFlowLayoutUsage" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEE801B1260D6B1B00A0B3F1;
+			productRefGroup = CEE801BB260D6B1B00A0B3F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEE801B9260D6B1B00A0B3F1 /* CollectionViewFlowLayoutUsage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEE801B8260D6B1B00A0B3F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE801CD260D6B1D00A0B3F1 /* LaunchScreen.storyboard in Resources */,
+				CEFEFE28260DC90F007935D6 /* DataPropertyList.plist in Resources */,
+				CEE801CA260D6B1D00A0B3F1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		76D495FBA865191F8049CC04 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CollectionViewFlowLayoutUsage/Pods-CollectionViewFlowLayoutUsage-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CollectionViewFlowLayoutUsage/Pods-CollectionViewFlowLayoutUsage-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CollectionViewFlowLayoutUsage/Pods-CollectionViewFlowLayoutUsage-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82C4AA4CD9EC6B1E1C99C33A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CollectionViewFlowLayoutUsage-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEE801B6260D6B1B00A0B3F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE80200260D6F5C00A0B3F1 /* WaterFallFlowLayoutCollectionViewCell.m in Sources */,
+				CEE801FB260D6F3D00A0B3F1 /* WaterFallFlowLayoutUsageController.m in Sources */,
+				CEE801BF260D6B1B00A0B3F1 /* AppDelegate.m in Sources */,
+				CEFEFE30260DC924007935D6 /* CentralCardLayoutUsageController.m in Sources */,
+				CEFEFE2C260DC917007935D6 /* CentralCardLayoutCollectionViewCell.m in Sources */,
+				CEE801D0260D6B1D00A0B3F1 /* main.m in Sources */,
+				CEFEFE26260DC90F007935D6 /* CentralCardSwitch.m in Sources */,
+				CEE801DE260D6D0800A0B3F1 /* TableViewController.m in Sources */,
+				CEE801E8260D6E6500A0B3F1 /* TKWaterFallFlowLayout.m in Sources */,
+				CEFEFE34260DC92B007935D6 /* CentralCardLayout.m in Sources */,
+				CEFEFE27260DC90F007935D6 /* CentralCardModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CEE801CB260D6B1D00A0B3F1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEE801CC260D6B1D00A0B3F1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEE801D1260D6B1D00A0B3F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CEE801D2260D6B1D00A0B3F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEE801D4260D6B1D00A0B3F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 593166D23C985F57715ADF14 /* Pods-CollectionViewFlowLayoutUsage.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5FL8MZ4CH2;
+				INFOPLIST_FILE = CollectionViewFlowLayoutUsage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tank.CollectionViewFlowLayoutUsage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEE801D5260D6B1D00A0B3F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38CC22E1E7D29075109E1150 /* Pods-CollectionViewFlowLayoutUsage.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5FL8MZ4CH2;
+				INFOPLIST_FILE = CollectionViewFlowLayoutUsage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tank.CollectionViewFlowLayoutUsage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEE801B5260D6B1B00A0B3F1 /* Build configuration list for PBXProject "CollectionViewFlowLayoutUsage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE801D1260D6B1D00A0B3F1 /* Debug */,
+				CEE801D2260D6B1D00A0B3F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEE801D3260D6B1D00A0B3F1 /* Build configuration list for PBXNativeTarget "CollectionViewFlowLayoutUsage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE801D4260D6B1D00A0B3F1 /* Debug */,
+				CEE801D5260D6B1D00A0B3F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEE801B2260D6B1B00A0B3F1 /* Project object */;
+}
