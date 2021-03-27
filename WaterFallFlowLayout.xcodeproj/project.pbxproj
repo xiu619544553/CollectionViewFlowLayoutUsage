@@ -13,8 +13,9 @@
 		41B6D51F249F8CCA00140E29 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 41B6D51E249F8CCA00140E29 /* main.m */; };
 		41B6D528249F8D5000140E29 /* TKWaterFallFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 41B6D526249F8D5000140E29 /* TKWaterFallFlowLayout.m */; };
 		41B6D52B249F8D9300140E29 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41B6D52A249F8D9300140E29 /* ViewController.m */; };
-		41B6D52F249F8DAE00140E29 /* FPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 41B6D52E249F8DAE00140E29 /* FPSLabel.m */; };
 		41B6D532249F8E4100140E29 /* TKCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 41B6D531249F8E4100140E29 /* TKCollectionViewCell.m */; };
+		CE375D2D260C8B9400D9705F /* CentralCardLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = CE375D2B260C8B9400D9705F /* CentralCardLayout.m */; };
+		CE375D31260C8BCE00D9705F /* CentralViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE375D30260C8BCE00D9705F /* CentralViewController.m */; };
 		E0642956F751A2755CE08785 /* Pods_WaterFallFlowLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F32645681607F508EAF2B25C /* Pods_WaterFallFlowLayout.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,11 +31,13 @@
 		41B6D527249F8D5000140E29 /* TKWaterFallFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKWaterFallFlowLayout.h; sourceTree = "<group>"; };
 		41B6D529249F8D9300140E29 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		41B6D52A249F8D9300140E29 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		41B6D52D249F8DAE00140E29 /* FPSLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPSLabel.h; sourceTree = "<group>"; };
-		41B6D52E249F8DAE00140E29 /* FPSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPSLabel.m; sourceTree = "<group>"; };
 		41B6D530249F8E4100140E29 /* TKCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKCollectionViewCell.h; sourceTree = "<group>"; };
 		41B6D531249F8E4100140E29 /* TKCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKCollectionViewCell.m; sourceTree = "<group>"; };
 		C348C3A6F7C0BD900719153B /* Pods-WaterFallFlowLayout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaterFallFlowLayout.release.xcconfig"; path = "Target Support Files/Pods-WaterFallFlowLayout/Pods-WaterFallFlowLayout.release.xcconfig"; sourceTree = "<group>"; };
+		CE375D2B260C8B9400D9705F /* CentralCardLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CentralCardLayout.m; sourceTree = "<group>"; };
+		CE375D2C260C8B9400D9705F /* CentralCardLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CentralCardLayout.h; sourceTree = "<group>"; };
+		CE375D2F260C8BCE00D9705F /* CentralViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CentralViewController.h; sourceTree = "<group>"; };
+		CE375D30260C8BCE00D9705F /* CentralViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CentralViewController.m; sourceTree = "<group>"; };
 		F32645681607F508EAF2B25C /* Pods_WaterFallFlowLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WaterFallFlowLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7EC4410B0E4C3FA78500674 /* Pods-WaterFallFlowLayout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaterFallFlowLayout.debug.xcconfig"; path = "Target Support Files/Pods-WaterFallFlowLayout/Pods-WaterFallFlowLayout.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -89,7 +92,7 @@
 		41B6D50B249F8CC700140E29 /* WaterFallFlowLayout */ = {
 			isa = PBXGroup;
 			children = (
-				41B6D52C249F8DAE00140E29 /* FPSLabel */,
+				CE375D2A260C8B9400D9705F /* CentralCardLayout */,
 				41B6D525249F8D3600140E29 /* WaterFallFlowLayout */,
 				41B6D50C249F8CC700140E29 /* AppDelegate.h */,
 				41B6D50D249F8CC700140E29 /* AppDelegate.m */,
@@ -97,6 +100,8 @@
 				41B6D52A249F8D9300140E29 /* ViewController.m */,
 				41B6D530249F8E4100140E29 /* TKCollectionViewCell.h */,
 				41B6D531249F8E4100140E29 /* TKCollectionViewCell.m */,
+				CE375D2F260C8BCE00D9705F /* CentralViewController.h */,
+				CE375D30260C8BCE00D9705F /* CentralViewController.m */,
 				41B6D518249F8CCA00140E29 /* Assets.xcassets */,
 				41B6D51A249F8CCA00140E29 /* LaunchScreen.storyboard */,
 				41B6D51D249F8CCA00140E29 /* Info.plist */,
@@ -114,13 +119,13 @@
 			path = WaterFallFlowLayout;
 			sourceTree = "<group>";
 		};
-		41B6D52C249F8DAE00140E29 /* FPSLabel */ = {
+		CE375D2A260C8B9400D9705F /* CentralCardLayout */ = {
 			isa = PBXGroup;
 			children = (
-				41B6D52D249F8DAE00140E29 /* FPSLabel.h */,
-				41B6D52E249F8DAE00140E29 /* FPSLabel.m */,
+				CE375D2C260C8B9400D9705F /* CentralCardLayout.h */,
+				CE375D2B260C8B9400D9705F /* CentralCardLayout.m */,
 			);
-			path = FPSLabel;
+			path = CentralCardLayout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,11 +241,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				41B6D528249F8D5000140E29 /* TKWaterFallFlowLayout.m in Sources */,
+				CE375D31260C8BCE00D9705F /* CentralViewController.m in Sources */,
 				41B6D532249F8E4100140E29 /* TKCollectionViewCell.m in Sources */,
-				41B6D52F249F8DAE00140E29 /* FPSLabel.m in Sources */,
 				41B6D50E249F8CC700140E29 /* AppDelegate.m in Sources */,
 				41B6D52B249F8D9300140E29 /* ViewController.m in Sources */,
 				41B6D51F249F8CCA00140E29 /* main.m in Sources */,
+				CE375D2D260C8B9400D9705F /* CentralCardLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,6 +380,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5FL8MZ4CH2;
 				INFOPLIST_FILE = WaterFallFlowLayout/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -392,6 +399,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5FL8MZ4CH2;
 				INFOPLIST_FILE = WaterFallFlowLayout/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (

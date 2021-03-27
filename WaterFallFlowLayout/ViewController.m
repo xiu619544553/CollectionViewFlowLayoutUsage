@@ -9,6 +9,7 @@
 #import "TKWaterFallFlowLayout.h"
 #import "TKCollectionViewCell.h"
 #import <MJRefresh/MJRefresh.h>
+#import "CentralViewController.h"
 
 static NSString *cellId = @"TKCollectionViewCell";
 
@@ -86,6 +87,13 @@ static NSString *cellId = @"TKCollectionViewCell";
     _collectionView.frame = self.view.bounds;
 }
 
+#pragma mark -
+
+- (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
+    CentralViewController *vc = [CentralViewController new];
+    [self.navigationController pushViewController:vc animated:YES];
+}
+
 #pragma mark - UICollectionViewDataSource
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
@@ -116,6 +124,7 @@ static NSString *cellId = @"TKCollectionViewCell";
         flowLayout.columnSpacing = 5.f;
         flowLayout.rowSpacing = 5.f;
         flowLayout.sectionInset = UIEdgeInsetsMake(10.f, 0.f, 0.f, 0.f);
+        
         
         _collectionView = [[UICollectionView alloc] initWithFrame:CGRectZero collectionViewLayout:flowLayout];
         _collectionView.backgroundColor = UIColor.whiteColor;
