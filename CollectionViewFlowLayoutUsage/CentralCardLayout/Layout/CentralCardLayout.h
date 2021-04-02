@@ -10,6 +10,7 @@
 
 typedef void(^CenterIndexPathHandler)(NSIndexPath *indexPath);
 
+// CentralCardHorizontalLayout
 @interface CentralCardLayout : UICollectionViewFlowLayout
 
 @property (nonatomic , strong) CenterIndexPathHandler centerBlock;

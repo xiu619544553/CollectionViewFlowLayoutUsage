@@ -8,6 +8,7 @@
 #import "TableViewController.h"
 #import "CentralCardLayoutUsageController.h"
 #import "WaterFallFlowLayoutUsageController.h"
+#import "OnePixelSpacingViewController.h"
 
 static NSString *cellIdentifier = @"UITableViewCell";
 static NSString *keyForTitle = @"title";
@@ -36,6 +37,10 @@ static NSString *keyForVc = @"vc";
         @{
             keyForVc : CentralCardLayoutUsageController.class,
             keyForTitle : @"卡片式"
+        },
+        @{
+            keyForVc : OnePixelSpacingViewController.class,
+            keyForTitle : @"UICollectionView 动态设置 Cell 间距"
         }
     ];
     

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CEABDB782616C38200DC2FD3 /* OnePixelSpacingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEABDB772616C38200DC2FD3 /* OnePixelSpacingViewController.m */; };
+		CEABDBCC2616E7F100DC2FD3 /* OnePixelSpacingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CEABDBCB2616E7F100DC2FD3 /* OnePixelSpacingCell.m */; };
 		CEE801BF260D6B1B00A0B3F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE801BE260D6B1B00A0B3F1 /* AppDelegate.m */; };
 		CEE801CA260D6B1D00A0B3F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEE801C9260D6B1D00A0B3F1 /* Assets.xcassets */; };
 		CEE801CD260D6B1D00A0B3F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE801CB260D6B1D00A0B3F1 /* LaunchScreen.storyboard */; };
@@ -28,6 +30,10 @@
 		38CC22E1E7D29075109E1150 /* Pods-CollectionViewFlowLayoutUsage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CollectionViewFlowLayoutUsage.release.xcconfig"; path = "Target Support Files/Pods-CollectionViewFlowLayoutUsage/Pods-CollectionViewFlowLayoutUsage.release.xcconfig"; sourceTree = "<group>"; };
 		593166D23C985F57715ADF14 /* Pods-CollectionViewFlowLayoutUsage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CollectionViewFlowLayoutUsage.debug.xcconfig"; path = "Target Support Files/Pods-CollectionViewFlowLayoutUsage/Pods-CollectionViewFlowLayoutUsage.debug.xcconfig"; sourceTree = "<group>"; };
 		5AD3C0B5BF59A10B79323D83 /* Pods_CollectionViewFlowLayoutUsage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CollectionViewFlowLayoutUsage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEABDB762616C38200DC2FD3 /* OnePixelSpacingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OnePixelSpacingViewController.h; sourceTree = "<group>"; };
+		CEABDB772616C38200DC2FD3 /* OnePixelSpacingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OnePixelSpacingViewController.m; sourceTree = "<group>"; };
+		CEABDBCA2616E7F100DC2FD3 /* OnePixelSpacingCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OnePixelSpacingCell.h; sourceTree = "<group>"; };
+		CEABDBCB2616E7F100DC2FD3 /* OnePixelSpacingCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OnePixelSpacingCell.m; sourceTree = "<group>"; };
 		CEE801BA260D6B1B00A0B3F1 /* CollectionViewFlowLayoutUsage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionViewFlowLayoutUsage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEE801BD260D6B1B00A0B3F1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CEE801BE260D6B1B00A0B3F1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -77,6 +83,33 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		CEABDB742616C29800DC2FD3 /* OnePixelSpacingLayout */ = {
+			isa = PBXGroup;
+			children = (
+				CEABDBC42616E7B100DC2FD3 /* View */,
+				CEABDB752616C34A00DC2FD3 /* ViewController */,
+			);
+			path = OnePixelSpacingLayout;
+			sourceTree = "<group>";
+		};
+		CEABDB752616C34A00DC2FD3 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CEABDB762616C38200DC2FD3 /* OnePixelSpacingViewController.h */,
+				CEABDB772616C38200DC2FD3 /* OnePixelSpacingViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		CEABDBC42616E7B100DC2FD3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CEABDBCA2616E7F100DC2FD3 /* OnePixelSpacingCell.h */,
+				CEABDBCB2616E7F100DC2FD3 /* OnePixelSpacingCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		CEE801B1260D6B1B00A0B3F1 = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +131,7 @@
 		CEE801BC260D6B1B00A0B3F1 /* CollectionViewFlowLayoutUsage */ = {
 			isa = PBXGroup;
 			children = (
+				CEABDB742616C29800DC2FD3 /* OnePixelSpacingLayout */,
 				CEE801E1260D6E6500A0B3F1 /* CentralCardLayout */,
 				CEE801E4260D6E6500A0B3F1 /* WaterFallFlowLayout */,
 				CEE801BD260D6B1B00A0B3F1 /* AppDelegate.h */,
@@ -337,7 +371,9 @@
 				CEFEFE26260DC90F007935D6 /* CentralCardSwitch.m in Sources */,
 				CEE801DE260D6D0800A0B3F1 /* TableViewController.m in Sources */,
 				CEE801E8260D6E6500A0B3F1 /* TKWaterFallFlowLayout.m in Sources */,
+				CEABDBCC2616E7F100DC2FD3 /* OnePixelSpacingCell.m in Sources */,
 				CEFEFE34260DC92B007935D6 /* CentralCardLayout.m in Sources */,
+				CEABDB782616C38200DC2FD3 /* OnePixelSpacingViewController.m in Sources */,
 				CEFEFE27260DC90F007935D6 /* CentralCardModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

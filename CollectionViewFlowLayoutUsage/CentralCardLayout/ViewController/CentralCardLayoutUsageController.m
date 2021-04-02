@@ -12,11 +12,8 @@
 @interface CentralCardLayoutUsageController ()<CardSwitchDelegate>
 
 @property (nonatomic, strong) CentralCardSwitch *cardSwitch;
-
 @property (nonatomic, strong) UIImageView *imageView;
-
 @property (nonatomic, strong) NSMutableArray *models;
-
 
 @end
 
@@ -27,7 +24,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.title = @"XLCardSwitch";
+    self.title = @"卡片式";
     self.view.backgroundColor = [UIColor whiteColor];
     
     [self configNavigationBar];
